@@ -2,7 +2,7 @@ let listaAmigos = [];
 let listaSorteados = [];
 
 function adicionar(){
-    let amigo = document.getElementById('nome-amigo').value;
+    let amigo = document.getElementById('nome-amigo').value.toUpperCase();
 
     if(amigo == ''){
         alert('Nome inválido');
